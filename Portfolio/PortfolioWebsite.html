@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+        <nav>
+        <ul class="menu">
+            <li><a href="#header" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-heading">
+        <h4>Are You Looking For A Professional?</h3>
+        <h1>I'm <span>Michael</span> Wade</h1>
+        <p>Cyber Security Student Attending The University Of Incarnate Word</p>
+        <a class="header-btn" href="#contact">Contact</a>
+    </div>
+</section>
+
+<section id="about">
+    <div class="abour-img" data-aos="zoom-in-up">
+        <img src="images/Hacker.jpg" alt="about-image"/>
+    </div>
+
+    <div class="about-text" data-aos="zoom-in-up">
+        <h2>Cyber <span>Security</span> Student</h2>
+        <h3>I am Studying Cyber Security and minoring in CIS</h3>
+        <p>To know a little about me, I am a sophomore, and I attend the University Of Incarnate Word.
+        </p>
+        <button class="header-btn">Read More</button>
+    </div>
+</section>
+
+<section id="work">
+    <div class="work-heading">
+        <h1>Things I enjoy Doing</h1>
+        <p>I Like hanging out with friends, and spending time with my girlfriend, as well as playing baseball.</p>
+    </div>
+    
+    <div class="work-container">
+        <div class="work-box" data-aos="flip-left">
+            <div class="work-img">
+                <img src="images/Baseball.JPG">
+            </div>
+            
+            <div class="work-text">
+            </div>
+        </div>
+        <div class="work-box" data-aos="flip-right">
+            <div class="work-img">
+                <img src="images/Abe.jpeg">
+            </div>
+            
+            <div class="work-text">
+            </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="work-heading" data-aos="zoom-out-down">
+        <h1>Contact Me</h1>
+        <p>Contact if you have any questions or concerns.</p>
+    </div>
+    <form data-aos="zoom-out-down">
+        <input type="text" placeholder="Type Your Name"/>
+        <input type="email" placeholder="Type Your E-mail"/>
+        <textarea placeholder="Type your message here"></textarea>
+        <input type="submit" value="Continue"/>
+    </form>
+
+
+
+
+</section>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
